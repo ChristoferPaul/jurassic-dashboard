@@ -2,4 +2,46 @@ html {
   background-color: #333;
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
+  line-height: 1.5;
+}
+
+.map {
+  border: 2px dotted #6feff9;
+  padding: 4px;
+}
+
+.dashboard-controls {
+  border-top: 2px dotted #6feff9;
+  border-bottom: 2px dotted #6feff9;
+}
+
+.topo {
+  border-right: 2px dotted #6feff9;
+}
+
+#cttv {
+  display: inline-block;
+  width: 100%;
+}
+
+#stats {
+  display: inline-block;
+  width: 100%;
+}
+
+@keyframes percentages {
+
+  40% {
+    transform: translateX(-2em);
+  }
+
+  80% {
+    transform: translateX(2em);
+  }
+
+}
+
+.dashboard {
+  color: #f62e52;
+  color: #ffd31d;
 }
